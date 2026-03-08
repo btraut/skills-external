@@ -8,3 +8,5 @@ This is just a folder (not a repo) that contains skills I'd like to sync between
 - code-review-excellence
 - frontend-design-ultimate
 - react-useeffect
+- babysit-pr
+- beads
