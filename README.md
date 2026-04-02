@@ -9,7 +9,7 @@ Best-effort source mapping is included so it is obvious where each imported skil
 | --- | --- | --- |
 | `agent-browser/` | Browser automation CLI workflows for opening pages, clicking, filling forms, extracting data, and testing web apps. | [openclaw/skills](https://github.com/openclaw/skills) |
 | `babysit-pr/` | Monitor a GitHub PR until it is mergeable, handling CI failures, flaky retries, and review feedback along the way. | [openai/codex](https://github.com/openai/codex) |
-| `beads/` | Git-backed issue tracking for multi-session work with dependencies and durable memory across compaction. | [steveyegge/beads](https://github.com/steveyegge/beads) |
+| `beads-rust/` | Local-first issue tracking for multi-session work with dependencies, ready-queue triage, and explicit JSONL sync via `br`. | [Dicklesworthstone/beads_rust/.claude/skills/br](https://github.com/Dicklesworthstone/beads_rust/tree/main/.claude/skills/br) |
 | `code-review-excellence/` | Code review guidance focused on finding real problems without turning review into performative bullshit. | [wshobson/agents](https://github.com/wshobson/agents) |
 | `context7/` | Fetch current third-party library documentation instead of guessing outdated APIs. | [openclaw/skills](https://github.com/openclaw/skills) |
 | `de-slopify/` | Remove AI writing tells from READMEs and docs through manual line-by-line editing. | [Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations](https://github.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations/tree/main/skills/de-slopify) |
