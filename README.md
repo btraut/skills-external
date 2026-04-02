@@ -13,7 +13,7 @@ Best-effort source mapping is included so it is obvious where each imported skil
 | `code-review-excellence/` | Code review guidance focused on finding real problems without turning review into performative bullshit. | [wshobson/agents](https://github.com/wshobson/agents) |
 | `context7/` | Fetch current third-party library documentation instead of guessing outdated APIs. | [openclaw/skills](https://github.com/openclaw/skills) |
 | `de-slopify/` | Remove AI writing tells from READMEs and docs through manual line-by-line editing. | [Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations](https://github.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations/tree/main/skills/de-slopify) |
-| `frontend-design-ultimate/` | Build distinctive static sites with React, Tailwind, and shadcn/ui from plain-language requirements. | [kesslerio/frontend-design-ultimate-clawhub-skill](https://github.com/kesslerio/frontend-design-ultimate-clawhub-skill) |
+| `frontend-design/` | Create distinctive, production-grade frontend interfaces with high design quality. | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
 | `railway-cli/` | Deploy and manage Railway services, env vars, logs, volumes, and service operations. | [CaptainCrouton89/.claude](https://github.com/CaptainCrouton89/.claude/tree/main/skills.archive/railway-cli) |
 | `rclone/` | Upload, sync, and manage files across S3-compatible and other cloud storage providers. | [everyinc/compound-engineering-plugin](https://github.com/everyinc/compound-engineering-plugin) |
 | `react-useeffect/` | React `useEffect` best practices, especially when not to use it. | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) |
