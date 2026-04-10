@@ -1,0 +1,49 @@
+{
+  "name": "last30days",
+  "version": "3.0.0",
+  "description": "Research any topic across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and grounded web sources from the last 30 days.",
+  "author": {
+    "name": "Matt Van Horn",
+    "email": "mvanhorn@gmail.com",
+    "url": "https://github.com/mvanhorn"
+  },
+  "homepage": "https://github.com/mvanhorn/last30days-skill",
+  "repository": "https://github.com/mvanhorn/last30days-skill",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "recency",
+    "reddit",
+    "x",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "hacker-news",
+    "polymarket",
+    "github",
+    "web-search"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks.json",
+  "interface": {
+    "displayName": "Last 30 Days",
+    "shortDescription": "Research any topic across social and web sources from the last 30 days",
+    "longDescription": "Runs the vendored last30days v3 pipeline to gather and synthesize recent signal from Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and grounded web search when the required keys and tools are available.",
+    "developerName": "Matt Van Horn",
+    "category": "Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mvanhorn/last30days-skill",
+    "privacyPolicyURL": "https://github.com/mvanhorn/last30days-skill",
+    "termsOfServiceURL": "https://github.com/mvanhorn/last30days-skill",
+    "defaultPrompt": [
+      "Research a person from the last 30 days across social and web sources",
+      "Compare two AI tools using the last 30 days of community signal",
+      "Find what people are saying about a product right now"
+    ],
+    "brandColor": "#FF6B35"
+  }
+}

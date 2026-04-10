@@ -1,9 +1,11 @@
 # Codex / Claude Agent Skills (External)
 
-Home for external skills used by Codex CLI and Claude-based agents. These are the shared skills that live outside the main `skills` repo but still belong in the same install flow.
+Home for external skills and plugins used by Codex CLI and Claude-based agents. These are the shared imports that live outside the main `skills` repo but still belong in the same install flow.
 
 ## What's inside
 Best-effort source mapping is included so it is obvious where each imported skill came from.
+
+### Skills
 
 | Skill | What it does | Source |
 | --- | --- | --- |
@@ -20,6 +22,12 @@ Best-effort source mapping is included so it is obvious where each imported skil
 | `read-github/` | Read and search GitHub repository docs and code through gitmcp.io. | [am-will/codex-skills](https://github.com/am-will/codex-skills) |
 | `tailwind-design-system/` | Design-system patterns for Tailwind CSS v4, tokens, components, and responsive UI. | [wshobson/agents](https://github.com/wshobson/agents) |
 
+### Plugins
+
+| Plugin | What it does | Source |
+| --- | --- | --- |
+| `plugins/last30days/` | Codex-native wrapper for the `last30days` research workflow, pulling recent signal from Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and grounded web search. | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) |
+
 ## Installing these skills
 
 ```bash
@@ -27,6 +35,21 @@ npx skills add btraut/skills-external
 ```
 
 Fallback: clone or place this repo in your agent's skills directory, such as `$CODEX_HOME/skills`.
+
+## Installing the included Codex plugin
+
+The bundled `last30days` plugin uses Codex's local marketplace layout:
+
+- plugin source: `plugins/last30days/`
+- marketplace file: `.agents/plugins/marketplace.json`
+
+Safe install flow:
+
+1. Clone this repo locally.
+2. Point Codex at the repo-local marketplace file, or copy the `last30days` entry into `~/.agents/plugins/marketplace.json`.
+3. Install the `last30days` plugin from that marketplace entry.
+
+The vendored plugin checks project-local config in `.codex/last30days.env` first, then `.claude/last30days.env`, then `~/.config/last30days/.env`.
 
 ## Changelog
 See [CHANGELOG.md](CHANGELOG.md).
