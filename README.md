@@ -1,5 +1,7 @@
 # Codex / Claude Agent Skills (External)
 
+> **No longer maintained.** This repository is deprecated and its contents are out of date. Refer to the upstream sources listed below for maintained versions of these skills and plugins.
+
 Home for external skills and plugins used by Codex CLI and Claude-based agents. The repo is split cleanly: skills live under `skills/`, plugins live under `plugins/`.
 
 ## What's inside
